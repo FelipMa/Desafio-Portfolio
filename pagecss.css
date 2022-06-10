@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+body{
+    background-color: var(--body-bg-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    font-weight: 900;
+}
+section{
+    background-color: var(--bg-cards);
+    border-radius: 5%;
+    margin: 1rem;
+    padding: 1rem;
+}
+h1{
+    font-size: 140%;
+}
+aside{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 15rem;
+}
+.profile{
+    text-align: center;
+}
+#img1{
+    border-radius: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color:var(--text-color);
+    text-decoration: none;
+}
+.tech{
+    background-color: var(--bg-techs);
+    margin: 1rem;
+    border-radius: 10%;
+    text-align: center;
+    width: 6rem;
+    color: black;
+}
+.experiências{
+    margin: 1rem;
+    font-size: 90%;
+}
+.educação{
+    margin: 1rem;
+    font-size: 90%;
+}
+main{
+    position: absolute;
+    top: 1rem;
+    left: 18rem;
+    width: 75rem;
+}
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulo-projetos{
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.projeto{
+    border: darkblue dashed;
+    flex-basis: 48%;
+    margin: 0.5rem;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulo-posts{
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.post{
+    border: darkblue dashed;
+    width: 100%;
+}
+.button{
+    background-color: #302F3D;
+    color: #837E9F;
+    border: none;
+}
